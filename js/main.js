@@ -61,4 +61,8 @@
         $('#subscribe').modal('hide');
     });
 
+    $('.instagram').on('click', function(){
+        window.location.href = "http://instagram.com/nicolaseelmir"
+    });
+
 })(jQuery);
